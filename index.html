@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="portfoliocss.css">
+        <script src="portfoliojs.js" defer></script>
+        <title>My Portfolio</title>
+    </head>
+    <body class="dark-theme">
+        <header>
+            <a href="#" class="logo">Hello World!</a>
+            <nav class="navbar">
+                <a href="#" class="active" style="--i:1">Home</a>
+                <a href="#about" style="--i:2">About</a>
+                <a href="#skills" style="--i:3">Skills</a>
+                <a href="#project" style="--i:4">Projects</a>
+                <a href="#contact" style="--i:5">Contact</a>
+            </nav>
+            <div class="icon" ><i class="fa-regular fa-sun"  style="color: #0ef;" id="toggle"></i></div>
+        </header>
+
+        <div class="hero-container">
+            <div class="info-side">
+                <h3 class="part-1">Hello, It's me</h3>
+                <h1>Arushi Mallick</h1>
+                <h3 class="part-2"><span>And I'm a Web Developer</span></h3>
+                <p>Eager to combine engineering knowledge with a passion for programming to create innovative solutions.</p>
+                <a href="https://www.instagram.com/arushi_isha/#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Arushi-isha"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/arushi-mallick-ba8a19283/"><i class="fa-brands fa-linkedin"></i></a>
+                <br>
+                <button><a  class="btn" href ="Resume.pdf" attributes-list download ="Resume">Download Resume</a></button>
+            </div>
+            <div class="hero-img"><img src="Portfolio.png" alt="My Pic"></div>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="about" id="about">
+            <h1>About Me!</h1>
+            <p>Motivated and forward-thinking 2nd-year B.Tech student majoring in Electronics and Instrumentation with a strong inclination towards software development and web technologies. Eager to combine engineering knowledge with a passion for programming to create innovative solutions. Currently honing skills in web development, data structures and algorithms, and C++. Seeking opportunities to apply these skills in real-world projects and contribute to dynamic development teams.</p>
+            <h2>Educational Qualifications</h2><br>
+            <dl>
+                <dt>Odisha University of Technology and Research </dt>
+                <dd>-B.Tech in Electronics & Instrumentation</dd>
+                <dd>-Year of Graduation: 2026</dd>
+                <dd>-Average CGPA- 8.8</dd><br>
+                <dt>LR D.A.V public School</dt>
+                <dd>-10th (2020) with 95.4%</dd>
+                <dd>-12th (2022) with 95.6%</dd>
+            </dl><br>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="skills" id="skills">
+            <h1>My Skills!</h1><br><br>
+            <h3>Frontend</h3><br>
+            <div class="progress">
+                <div class="bar frontend">85%</div>
+            </div><br><br>
+            <h3>Backend</h3><br>
+            <div class="progress">
+                <div class="bar backend">45%</div>
+            </div><br><br>
+            <h3>AI/ML</h3><br>
+            <div class="progress">
+                <div class="bar aiml">30%</div>
+            </div><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+        <div class="project" id="project">
+            <h1>My Projects!</h1><br><br>
+            <h3>Amazon Clone Website</h3><br>
+            <div>
+                <img class="clone" src="Amazon-clone-1.png">
+                <img class="clone" src="Amazon-clone-2.png">
+            </div><br><br>
+            <h3>Travel-Blog</h3><br>
+            <div>
+                <img class="blog" src="Travel-Blog-1.png">
+                <img class="blog" src="Travel-Blog-2.png">
+            </div>
+        </div><br><br>
+        <div class="contact" id="contact">
+            <h1>Contact Me!</h1><br>
+            <div class="mycontact">
+                <h4>Phone Number- +91-7750-9959-07</h4><br>
+                <h4>E-mail-arushimallickisha@gmail.com</h4>
+            </div>
+            <div class="form">
+            <label for="name">Enter your name</label><br>
+            <input type="text" id="name" name="name" class="fbox"><br>
+            <label for="email">Enter your email</label><br>
+            <input type="email" id="email" name="email">
+            <p>Write your message here!</p>
+            <textarea name="bio" rows="10" cols="30"></textarea><br>
+            <button style="font-size: 20px;color: #fff;">Send</button>
+            </div>
+        </div>
+    </body>
+</html>
