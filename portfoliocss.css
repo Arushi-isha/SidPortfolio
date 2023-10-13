@@ -12,17 +12,19 @@ body{
 }
 .light-theme {
     background-image: url("light-theme-4k-b0.jpg");
-    background-repeat: repeat-y;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: white;
     color: #fff;
     transition: 2s;
 }
 .dark-theme {
-    background-image: url("home-wall.jpg"),url("dark-theme-background.jpg");
+    background-image: url("home-wall.jpg");
     background-color: black;
-    background-repeat: no-repeat,repeat-y;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
     color: #fff;
     transition: 2s;
 }
