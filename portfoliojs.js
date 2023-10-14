@@ -15,3 +15,8 @@ toggle.addEventListener('click', function () {
     this.classList.toggle('fa-regular');
     this.classList.toggle('fa-sun');
 });
+const sub= document.getElementById('submit');
+sub.addEventListener('click', Submission);
+function Submission (){
+    window.location.href="submission.html";
+}
